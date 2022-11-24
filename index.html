@@ -1,390 +1,405 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 
-
 <head>
-	<meta name="generator" content="Hugo 0.104.0" />
-    <meta charset="utf-8">
-    <title>MPCVault Console</title>
-    <meta name="referrer" content="no-referrer">
-    
-    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    
-    
-    <link rel="stylesheet" href="styles/index.css">
-    <link rel="stylesheet" href="font/sf.css">
-    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+	<meta name="generator" content="Hugo 0.106.0">
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  
+  
+
+  <title></title>
+
+  
+  <meta name="author" content="Puppet">
+  
+  <meta name="description" content="Home Index Content">
+  <meta name="keywords" content="blog,developer,personal">
+
+  <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content=""/>
+<meta name="twitter:description" content="A simple and clean theme for Hugo"/>
+
+  <meta property="og:title" content="" />
+<meta property="og:description" content="A simple and clean theme for Hugo" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="http://localhost:1313/" />
+
+
+
+  <link rel="stylesheet" href="/css/bootstrap.min.css"  crossorigin="anonymous">
+  
+  
+  
+  <link href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet"
+    type="text/css">
+
+  
+  
+  <link rel="stylesheet" href="/sass/main.css">
+
+  <link rel="stylesheet" href="/css/mpcvault.css"  >
+  <link rel="stylesheet" href="/css/fonts/sf.css"  >
+
+  
+  <link rel="stylesheet" href="/zoomjs/zoom.min.css">
+
+  
+
+  <script src=/js/lazysizes.min.js></script>
+
+  
+  
+
+  <link rel="alternate" type="application/json" href="/index.json" title="Puppet" />
+  <link rel="alternate" type="application/rss+xml" href="/index.xml" title="Puppet" />
+  
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  
+  <link rel="manifest" href="/site.webmanifest">
+  
+  
 </head>
 
-<body>
-    <div class="container">
-        <div class="header">
-            <div class="logo">
-                <a href="/">
-                    <img src="images/logo.png" alt="">
-                </a>
-            </div>
-            <div class="menu">
-                <button id="menu-button" class="menu-button" onclick="menuClick(event)">
 
-                </button>
-            </div>
-            <div class="menus" id="menus-content">
-                <a href="https://console.mpcvault.com" target="_blank" class="link">Log in</a>
-                <a href="https://console.mpcvault.com" target="_blank" class="btn">Sign up</a>
-            </div>
-        </div>
 
-        <div class="content-box console-content">
-            <div class="float-left has-text">
-                <div class="text-box">
-                    <div class="title">Non-custodial Web3 wallet for teams</div>
-                    <div class="content">Whether you are looking to manage your company's treasury, operate your fund's assets, become a digital
-                        asset custodian, engage in dex trading, or build the next digital asset exchange, MPCVault is here
-                        for you.</div>
-                    <div class="start-now" style="margin-top: 60px;">
-                        <a href="https://console.mpcvault.com" target="_blank">Start now -></a>
-                    </div>
-                </div>
-            </div>
-            <div class="float-right has-img pt-52">
-                <img class="console-img" src="images/new/console.png" alt="">
-            </div>
-        </div>
+<body ontouchstart="" class="mpcvault">
+
+  
+  
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+
+
+
+
+
+<nav class="navbar navbar-default navbar-custom navbar-fixed-top ">
+  <div class="container-fluid">
+    
+    <div class="navbar-header page-scroll">
+      <button type="button" class="navbar-toggle">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      
+      <a class="navbar-brand" href="http://localhost:1313">
+        <img src="http://localhost:1313img/logo.png" alt="" style="width: 140px;">
+      </a>
     </div>
-    <div class="zz-content">
-        <div class="zz-box">
-            <img src="images/new/zz/project-galaxy.png" alt="">
-        </div>
-        <div class="zz-box">
-            <img src="images/new/zz/cyber.png" alt="">
-        </div>
-        <div class="zz-box">
-            <img src="images/new/zz/element.png" alt="">
-        </div>
-        <div class="zz-box">
-            <img src="images/new/zz/eth.png" alt="">
-        </div>
-        <div class="zz-box">
-            <img src="images/new/zz/pal.png" alt="">
-        </div>
-        <div class="zz-box">
-            <img src="images/new/zz/80.png" alt="">
-        </div>
+    
+    <div id="huxblog_navbar">
+      <div class="navbar-collapse">
+        <ul class="nav navbar-nav navbar-right">
+          
+          <li>
+            <a href="https://console.mpcvault.com" target="_blank" class="sign-in">Log in</a>
+          </li>
+          <li>
+            <a href="https://console.mpcvault.com" target="_blank" class="sign-up">Sign up</a>
+          </li>
+          <li class="search-icon">
+            <a href="javascript:void(0)">
+              <i class="fa fa-search"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
     </div>
-
-    <div class="custodial-box">
-        <div class="container">
-            <div class="text-box">
-                <div class="mini-title">You have control</div>
-                <div class="title">A self-custodial approach</div>
-                <div class="content">"Not your keys, not your coins." This is even more true for enterprise customers with large amount of assets
-                    at stake. MPCVault's solution is self-custodial. We do not have total control over your keys or assets.
-                    Each operation has to be cryptographically signed by your key share, eliminating any counter-party risks.
-                </div>
-            </div>
-            <div class="">
-                <img src="images/new/token/assets.png" alt="">
-            </div>
-        </div>
-    </div>
-
-    <div class="container">
-        <div class="content-box other-content">
-            <div class="float-left has-img">
-                <img class="w-100" src="images/new/1.png" alt="">
-            </div>
-            <div class="float-right has-text">
-                <div class="text-box">
-                    <div class="mini-title">Keyless operation</div>
-                    <div class="title">Operate without passing around private keys</div>
-                    <div class="content">With our proprietary MPC technology, team members never have direct access to private keys. Feel free
-                        to add in as many team members as you want without worrying about key security.</div>
-                    <div class="start-now">
-                        <a href="https://console.mpcvault.com" target="_blank">Start now -></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="content-box other-content">
-            <div class="float-right has-img align-right">
-                <img class="w-100" src="images/new/2.png" alt="">
-            </div>
-            <div class="float-left has-text">
-                <div class="text-box">
-                    <div class="mini-title">Self-service recovery</div>
-                    <div class="title">Backup once and recover all your assets</div>
-                    <div class="content">No longer do you have to manage multiple mnemonics for different blockchain addresses. With a one-time
-                        backup, you can generate as many addresses on different blockchains as you wish.</div>
-                    <div class="start-now">
-                        <a href="https://console.mpcvault.com" target="_blank">Start now -></a>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-
-        <div class="content-box other-content">
-            <div class="float-left has-img">
-                <img class="w-100" src="images/new/3.png" alt="">
-            </div>
-            <div class="float-right has-text">
-                <div class="text-box">
-                    <div class="mini-title">Single source of truth</div>
-                    <div class="title">View all your assets in one place</div>
-                    <div class="content">See your on-chain assets, exchange accounts, and bank accounts in one place. Seamlessly transfer assets
-                        across all your accounts.</div>
-                    <div class="start-now">
-                        <a href="https://console.mpcvault.com" target="_blank">Start now -></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="content-box other-content">
-            <div class="float-right has-img align-right">
-                <img class="w-100" src="images/new/4.png" alt="">
-            </div>
-            <div class="float-left has-text">
-                <div class="text-box">
-                    <div class="mini-title">Risk management</div>
-                    <div class="title">Transaction policies and access control</div>
-                    <div class="content">Define role-based access control and limit risk exposure by configuring approval workflows. You can set
-                        transaction properties such as total volume, destination addresses, and the number of approvers required
-                        for each transaction.</div>
-                    <div class="start-now">
-                        <a href="https://console.mpcvault.com" target="_blank">Start now -></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="content-box other-content">
-            <div class="float-left has-img">
-                <img class="w-100" src="images/new/5.png" alt="">
-            </div>
-            <div class="float-right has-text">
-                <div class="text-box">
-                    <div class="mini-title">Insider attack prevention</div>
-                    <div class="title">A detailed audit for every action</div>
-                    <div class="content">MPCVault maintains a detailed history of all user actions. Use this to meet your compliance needs and
-                        identify the root cause if things go wrong.</div>
-                    <div class="start-now">
-                        <a href="https://console.mpcvault.com" target="_blank">Start now -></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="content-box other-content">
-            <div class="float-right has-img align-right">
-                <img class="w-100" src="images/new/6.png" alt="">
-            </div>
-            <div class="float-left has-text">
-                <div class="text-box">
-                    <div class="mini-title">Blind-signing prevention</div>
-                    <div class="title">Transaction decoding</div>
-                    <div class="content">MPCVault decodes transactions before you sign them and uses machine learning to detect fraudulent transactions.
-                        MPCVault helps you understand what you are signing and get alerted if something is suspicious.</div>
-                    <div class="start-now">
-                        <a href="https://console.mpcvault.com" target="_blank">Start now -></a>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-    </div>
-
-    <div class="black-box">
-        <div class="container">
-            <div class="content-box black-content">
-                <div class="float-left ">
-                    <div class="text-box">
-                        <div class="mini-title">Built for developers</div>
-                        <div class="title">The most powerful APIs</div>
-                        <div class="content">MPCVault's well-architected API stack allows you to build with agility and confidence. We offer different
-                            levels of abstractions that put no limits on what you can build, all the while remaining non-custodial.
-                        </div>
-                        <div class="start-now">
-                            <a href="https://docs.mpcvault.com/password?redirect=/" target="_blank">Read the docs</a>
-                        </div>
-                    </div>
-                    <div class="more-infos">
-                        <div class="more-info">
-                            <div class="more-logo">
-                                <img src="images/new/more-info/sdk.png" alt="">
-                            </div>
-                            <div class="more-title">SDKs for every stack </div>
-                            <div class="more-content">We offer performant client libraries in everything from GoLang and Java to .NET and iOS, shortening
-                                your development time by 5x.</div>
-                        </div>
-                        <div class="more-info">
-                            <div class="more-logo">
-                                <img src="images/new/more-info/flex.png" alt="">
-                            </div>
-                            <div class="more-title">Flexible abstractions</div>
-                            <div class="more-content">From creating an account to creating key pairs, our API supports a myriad of use cases.</div>
-                        </div>
-                        <div class="more-info">
-                            <div class="more-logo">
-                                <img src="images/new/more-info/setup.png" alt="">
-                            </div>
-                            <div class="more-title">Simple setup for MPC computation</div>
-                            <div class="more-content">Clone, setup and run. That's it. We will take care of the complicated MPC set-up for you. </div>
-                        </div>
-                        <div class="more-info">
-                            <div class="more-logo">
-                                <img src="images/new/more-info/security.png" alt="">
-                            </div>
-                            <div class="more-title">Designed with security</div>
-                            <div class="more-content">You can set caller IP range, total transaction limits, callback checks, and other security checks
-                                on your API caller. All API call logs are saved for auditing.</div>
-                        </div>
-                    </div>
-                </div>
-                <div class="float-right has-text">
-                    <img class="" src="images/new/maincode.png" alt="">
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="all-assets-box">
-        <div class="container">
-            <div class="align-center">
-                <div class="mini-title">You have control</div>
-                <div class="big-title">Manage all asset types, across all blockchains</div>
-                <div class="mini-content">MPCVault supports all commonly used digital signature algorithms. No matter which chain you are on, our flexible
-                    technology stack will be able to meet your evolving business needs.</div>
-                <div class="counts">100,000+</div>
-                <div class="content">Supported Assets</div>
-            </div>
-            <div class="assets-box">
-                <img class="all-assets-2" src="images/new/token/all-assets.png" alt="">
-                <img class="all-assets-3" src="images/new/token/all-assets-phone.png" alt="">
-                
-            </div>
-        </div>
-    </div>
-
-    <div class="secure-box">
-        <div class="container">
-            <div class="align-center">
-                <div class="mini-title">The ultimate approach to key management</div>
-                <div class="big-title">Secure multi-party computation (MPC)</div>
-            </div>
-
-            <div class="content-box other-content">
-                <div class="float-left has-img">
-                    <img class="w-100" src="images/new/7.png" alt="">
-                </div>
-                <div class="float-right has-text">
-                    <div class="text-box">
-                        <div class="mini-title">Highest-level of security</div>
-                        <div class="title">No more static private keys</div>
-                        <div class="content">With MPC, there is no single point of vulnerability and your private key is never materialized. In
-                            place of a static private key, key shares are independently generated in multiple locations.</div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="content-box other-content">
-                <div class="float-right has-img">
-                    <img class="w-100" src="images/new/8.png" alt="">
-                </div>
-                <div class="float-left has-text">
-                    <div class="text-box">
-                        <div class="mini-title">Distributed trust</div>
-                        <div class="title">Independent and distributed computation</div>
-                        <div class="content">Computing parties sign the transaction independently. Partial signatures are then combined to form the full signature.</div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="content-box other-content">
-                <div class="float-left has-img">
-                    <img class="w-100" src="images/new/9.png" alt="">
-                </div>
-                <div class="float-right has-text">
-                    <div class="text-box">
-                        <div class="mini-title">Made to last</div>
-                        <div class="title">Periodic key refresh</div>
-                        <div class="content">All key shares are refreshed regularly, providing maximum security against attacks over a long term.</div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-
-    </div>
-
-
-
-    <div class="footer-box">
-        <div class="container">
-            <div class="footer">
-                <div class="logo-box">
-                    <img class="logo" src="images/logo.png" alt="">
-                    <div class="soc-box">
-                        <img class="soc" src="images/new/soc.png" alt="">
-                    </div>
-                </div>
-
-                <div class="menus-box">
-                    <div class="menus">
-                        <div class="menu-box">
-                            <div class="menu">
-                                <div class="menu-title">Resources</div>
-                                <a target="_blank" href="docs/supports/contact-us">Support</a>
-                                <a target="_blank" href="images/cdn/Media Kit 1.0.zip">Media Kit</a>
-                                <a href="javascript:;">Data Security</a>
-                                <a target="_blank" href="docs/legal/bug-bounty-program">Bug Bounty Program</a>
-                                <a target="_blank" href="docs/legal/privacy-policy">Privacy policy</a>
-                                <a target="_blank" href="docs/legal/terms-and-conditions">Terms</a>
-                                <a href="javascript:;">Blogs</a>
-                            </div>
-                            <div class="menu">
-                                <div class="menu-title">Developers</div>
-                                <a target="_blank" href="https://docs.mpcvault.com/password?redirect=/">API Documentation</a>
-                                <a target="_blank" href="https://status.mpcvault.com/">Status</a>
-                            </div>
-                        </div>
-                        <div class="menu menu-icon">
-                            <a target="_blank" href="https://twitter.com/mpcvault">
-                                <img src="images/new/twi.png" alt="">
-                            </a>
-                            <a target="_blank" href="https://www.linkedin.com/company/mpcvault/">
-                                <img src="images/new/in.png" alt="">
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="copy-box">
-                <div class="com-1">NMLS# 2357870</div>
-                <div class="com-2">FinCEN ID 31000213664980</div>
-                <div class="copy">©2022 MPCVault (MetaLoop Inc)</div>
-            </div>
-        </div>
-    </div>
-</body>
+    
+  </div>
+  
+</nav>
 <script>
-    function menuClick(e) {
-        console.log('====================================');
-        console.log(e.srcElement.classList);
-        console.log('====================================');
-        if (e.srcElement.classList.contains('close')) {
-            
-            document.getElementById('menu-button').classList.remove('close');
-            document.getElementById('menus-content').classList.remove('show');
-            document.body.classList.remove('overflow-hidden');
-        } else {
-            document.getElementById('menu-button').classList.add('close');
-            document.getElementById('menus-content').classList.add('show');
-            document.body.classList.add('overflow-hidden');
+  
+  
+  
+  var $body = document.body;
+  var $toggle = document.querySelector(".navbar-toggle");
+  var $navbar = document.querySelector("#huxblog_navbar");
+  var $collapse = document.querySelector(".navbar-collapse");
+
+  var __HuxNav__ = {
+    close: function () {
+      $navbar.className = " ";
+      
+      setTimeout(function () {
+        
+        if ($navbar.className.indexOf("in") < 0) {
+          $collapse.style.height = "0px";
         }
+      }, 400);
+    },
+    open: function () {
+      $collapse.style.height = "auto";
+      $navbar.className += " in";
+    },
+  };
+
+  
+  $toggle.addEventListener("click", function (e) {
+    if ($navbar.className.indexOf("in") > 0) {
+      __HuxNav__.close();
+    } else {
+      __HuxNav__.open();
     }
+  });
+
+  
+
+  document.addEventListener("click", function (e) {
+    if (e.target == $toggle) return;
+    if (e.target.className == "icon-bar") return;
+    __HuxNav__.close();
+  });
 </script>
+  
+<div class="search-page">
+  <div class="search-icon-close-container">
+    <span class="search-icon-close">
+      <i class="fa fa-chevron-down"></i>
+    </span>
+  </div>
+  <div class="search-main container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <form></form>
+        <input type="text" id="search-input" placeholder="$ grep...">
+        </form>
+        <div id="search-results" class="mini-post-list"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+  
+  
+
+
+
+<header class="intro-header" style="background-image: url('/img/home-bg.jpg')">
+
+  <div class="container">
+    <div class="row">
+      
+    </div>
+  </div>
+</header>
+
+
+  
+
+  
+  <div class="container">
+    <div class="row">
+      
+      
+      
+      <div class="post-main-title flex-box center">
+        <div class="flex-1 title">Blog</div>
+        <div class="out-links flex-box center">
+          <div class="out-link"><a target="_blank" href="https://twitter.com/mpcvault"><img src="img/twi.png" alt=""></a></div>
+          <div class="out-link"><a target="_blank" href="https://www.linkedin.com/company/mpcvault/"><img src="img/in.png" alt=""></a></div>
+        </div>
+      </div>
+      <div class="col-lg-12  col-md-12 col-sm-12
+      col-xs-12 postlist-container">
+        
+
+
+   
+<div class="flex-box center">
+  <div class="col-lg-8 col-lg-offset-0 col-md-8 col-md-offset-0 col-sm-12
+  col-xs-12">
+    <img class="blog-img" src="images/blog-logo/demo1.png" alt="">
+  </div>
+  <div class="col-lg-4 col-lg-offset-0 col-md-4 col-md-offset-0 col-sm-12
+  col-xs-12">
+    <div class="post-preview">
+      <a href="/posts/terms-conditions/">
+        <div class="author-box">
+          <img src="images/blog-author/author.png" alt="">
+          <div class="author-name">Ronald Richards</div>
+          <div class="author-date">Sep 9, 2022</div>
+        </div>
+        <div class="post-title">Terms and Conditions</div>
+        <div class="post-description">
+           Terms &amp; Conditions Effective Date: July 27, 2022 IMPORTANT NOTICE: THIS AGREEMENT CONTAINS A BINDING
+          
+        </div>
+      </a>
+      
+    </div>
+  </div>
+</div>
+<hr>
+
+   
+<div class="flex-box center">
+  <div class="col-lg-8 col-lg-offset-0 col-md-8 col-md-offset-0 col-sm-12
+  col-xs-12">
+    <img class="blog-img" src="images/blog-logo/demo1.png" alt="">
+  </div>
+  <div class="col-lg-4 col-lg-offset-0 col-md-4 col-md-offset-0 col-sm-12
+  col-xs-12">
+    <div class="post-preview">
+      <a href="/posts/getting-started/">
+        <div class="author-box">
+          <img src="images/blog-author/author.png" alt="">
+          <div class="author-name">Ronald Richards</div>
+          <div class="author-date">Aug 9, 2022</div>
+        </div>
+        <div class="post-title">Puppet - Getting Started 11</div>
+        <div class="post-description">
+           Terms &amp; Conditions Effective Date: July 27, 2022 IMPORTANT NOTICE: THIS AGREEMENT CONTAINS A BINDING
+          
+        </div>
+      </a>
+      
+    </div>
+  </div>
+</div>
+<hr>
+
+   
+<div class="flex-box center">
+  <div class="col-lg-8 col-lg-offset-0 col-md-8 col-md-offset-0 col-sm-12
+  col-xs-12">
+    <img class="blog-img" src="images/blog-logo/demo1.png" alt="">
+  </div>
+  <div class="col-lg-4 col-lg-offset-0 col-md-4 col-md-offset-0 col-sm-12
+  col-xs-12">
+    <div class="post-preview">
+      <a href="/posts/markdown-syntax/">
+        <div class="author-box">
+          <img src="images/blog-author/author.png" alt="">
+          <div class="author-name">Ronald Richards</div>
+          <div class="author-date">Mar 11, 2020</div>
+        </div>
+        <div class="post-title">Markdown Syntax Guide</div>
+        <div class="post-description">
+           Sample article showcasing basic Markdown syntax and formatting for HTML elements.
+          
+        </div>
+      </a>
+      
+    </div>
+  </div>
+</div>
+<hr>
+
+
+
+
+      </div>
+      
+      
+      
+
+    </div>
+  </div>
+
+  
+
+  
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 col-lg-offset-0 col-md-12 col-md-offset-0">
+        
+        
+
+
+<div class="footer-box">
+  <div class="footer">
+    <div class="logo-box">
+      <img class="logo" src="images/logo.png" alt="">
+      <div class="soc-box">
+        <img class="soc" src="images/new/soc.png" alt="">
+      </div>
+    </div>
+
+    <div class="menus-box">
+      <div class="menus">
+        <div class="menu-box">
+          <div class="menu">
+            <div class="menu-title">Resources</div>
+            <a target="_blank" href="https://mpcvault.com/docs/supports/contact-us">Support</a>
+            <a target="_blank" href="https://mpcvault.com/images/cdn/Media Kit 1.0.zip">Media Kit</a>
+            <a href="javascript:;">Data Security</a>
+            <a target="_blank" href="https://mpcvault.com/docs/legal/bug-bounty-program">Bug Bounty Program</a>
+            <a target="_blank" href="https://mpcvault.com/docs/legal/privacy-policy">Privacy policy</a>
+            <a target="_blank" href="https://mpcvault.com/docs/legal/terms-and-conditions">Terms</a>
+            <a href="javascript:;">Blogs</a>
+          </div>
+          <div class="menu">
+            <div class="menu-title">Developers</div>
+            <a target="_blank" href="https://docs.mpcvault.com/password?redirect=/">API Documentation</a>
+            <a target="_blank" href="https://status.mpcvault.com/">Status</a>
+          </div>
+        </div>
+        <div class="menu menu-icon">
+          <a target="_blank" href="https://twitter.com/mpcvault">
+            <img src="images/new/twi.png" alt="">
+          </a>
+          <a target="_blank" href="https://www.linkedin.com/company/mpcvault/">
+            <img src="images/new/in.png" alt="">
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="copy-box">
+    <div class="com-1">NMLS# 2357870</div>
+    <div class="com-2">FinCEN ID 31000213664980</div>
+    <div class="copy">©2022 MPCVault (MetaLoop Inc)</div>
+  </div>
+</div>
+        
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src=/js/jquery.min.js></script>
+<script src=/js/bootstrap.min.js crossorigin="anonymous"></script>
+
+
+
+<script src="/js/hux-blog.min.c4ea77041cd3edbfc8b2622cd887a9a5d8760a4162d14489e36d2a3fa4c90172.js"></script>
+
+
+<script src=/js/simple-jekyll-search.min.js></script>
+
+
+<script src="/js/search.min.53bce5da475b4d362500e5ce5dddfa22e20e1b9018777411d2020b4b839c9310.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="/zoomjs/zoom.min.js"></script>
+
+</body>
 
 </html>

@@ -39,15 +39,16 @@ a {text-decoration: none;}
 .text-box .start-now a {font-size: 15px;line-height: 20px;color: #FFFFFF;font-family: 'Inter-Medium';background: #3147FF;border-radius: 2000px;padding: 7px 16px;}
 .has-text .text-box {position: absolute;top: 50%;transform: translate(0, -50%);}
 
-.zz-content {padding: 40px;text-align: center;background: #F8F9FC;margin-bottom: 81px;}
-.zz-content .zz-box {display: inline-block;margin: 0 42px;}
+.zz-content {padding: 40px 40px 28px 40px;text-align: center;background: #F8F9FC;}
+.zz-content .zz-box {display: inline-block;margin: 0 42px 12px;vertical-align: middle;}
 .zz-content .zz-box img {height: 32px;}
+.zz-content .zz-box img.cyber  {height: 22px;}
 
 .content-box.other-content .w-100 { width: 84%;}
 .content-box.other-content {margin-bottom: 120px;}
 
 
-.black-box {background: #0A1727;padding: 160px 0 160px 80px;overflow: hidden;}
+.black-box {background: #0A1727;padding: 160px 0;overflow: hidden;}
 .black-box .text-box {}
 .black-box .text-box .mini-title {color: #0CAEF5;}
 .black-box .text-box .title {color: #FFFFFF;}
@@ -111,7 +112,7 @@ a {text-decoration: none;}
 .footer-box  .footer .menus-box .menus .menu.menu-icon a img {width: 24px;}
 
 .copy-box {font-size: 15px;line-height: 17px;font-family: 'Inter-Regular';padding-top: 24px;display: flex;}
-.copy-box .com-2 {flex: 1;}
+.copy-box .com-2 {flex: 1;padding-left: 12px;}
 
 
 .container .header .menu {display: none;}
@@ -140,12 +141,13 @@ a {text-decoration: none;}
     .zz-content {padding: 80px 10px 50px;margin-bottom: 0;}
     .zz-content .zz-box {margin: 0 12px;margin-bottom: 30px;}
     .zz-content .zz-box img {height: 22px;}
+    .zz-content .zz-box img.cyber  {height: 17px;}
 
     .content-box.other-content .w-100 {
         width: 100%;
     }
 
-    .black-box {padding: 64px 25px;}
+    .black-box {padding: 64px 0;}
     .text-box {max-width: auto;}
 
     .more-infos {margin-top: 88px;}
@@ -153,7 +155,7 @@ a {text-decoration: none;}
     .more-infos .more-info .more-title {max-width: unset;}
     .more-infos .more-info .more-content {max-width: unset;}
 
-    .black-box .content-box .float-right {position: unset;right: unset;}
+    .black-box .content-box .float-right {position: unset;right: unset;padding: 0 0 0 25px;}
     .black-box .content-box .float-right img {height: auto;width: 100%;}
 
     .all-assets-box .align-center {text-align: unset;padding: 0 25px;}
@@ -201,4 +203,8 @@ a {text-decoration: none;}
     }
     .container .header .menus a.btn {display: block;text-align: center;font-size: 15px;font-family: "Inter-Regular";color: #ffffff;background: #000000;
     }
+
+    .console-img {
+        height: auto;
+        width: 150%;}
 }

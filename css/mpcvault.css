@@ -53,8 +53,8 @@ footer {background: #F8F9FC;}
 .sidebar-container h5 a.catalog-toggle {color: #000000!important;font-size: 18px;line-height: 24px;font-family: 'Inter-SemiBold';}
 .sidebar-container h5 a.catalog-toggle::before {content: '';}
 .sidebar-container h5 {padding-bottom: 0;margin-bottom: 16px;}
-
-
+.navbar-custom.is-fixed {z-index: 99999;}
+.side-catalog.fixed {z-index: 1;background: #ffffff;height: auto;}
 /* content */
 .intro-header .mpcvault-post-row  {padding: 160px 0 20px;}
 .intro-header .post-heading.post-mpc-heading {padding: 0;}

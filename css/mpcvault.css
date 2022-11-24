@@ -87,9 +87,12 @@ footer {background: #F8F9FC;}
 .post-container .pager li>a>span {font-size: 14px;line-height: 18px;color: #73798C;font-family: 'Inter-Regular';}
 .post-container .pager li>a:hover {color: #ffffff;}
 .post-container .pager li>a:hover span {color: #ffffff;}
+
+.navbar-custom .navbar-brand {padding: 20px 0;}
 @media only screen and (min-width: 1170px) {
     .navbar-custom.is-fixed .nav li a {color: #000000;}
 }
+
 
 @media (max-width: 1000px) {
     .footer-box {padding: 127px 25px 39px;}

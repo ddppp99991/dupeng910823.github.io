@@ -11,10 +11,8 @@
     
   
 
-  <title>Markdown Syntax Guide | Puppet</title>
+  <title>Markdown Syntax Guide | MPCVault - Enterprise Crypto Asset Custody Platform</title>
 
-  
-  <meta name="author" content="Puppet">
   
   <meta name="description" content="Sample article showcasing basic Markdown syntax and formatting for HTML elements.">
   <meta name="keywords" content="blog,developer,personal">
@@ -28,7 +26,7 @@
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://dupeng910823.github.io/posts/markdown-syntax/" /><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2020-03-11T00:00:00+00:00" />
-<meta property="article:modified_time" content="2020-03-11T00:00:00+00:00" />
+<meta property="article:modified_time" content="2020-03-11T00:00:00+00:00" /><meta property="og:site_name" content="111" />
 <meta property="og:see_also" content="https://dupeng910823.github.io/posts/terms-conditions/" /><meta property="og:see_also" content="https://dupeng910823.github.io/posts/getting-started/" />
 
 
@@ -92,6 +90,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
+        <img src="../../images/close.png" class="navbar-toggle-img" alt="">
       </button>
       
       <a class="navbar-brand" href="https://dupeng910823.github.io">
@@ -138,7 +137,7 @@
       }, 400);
     },
     open: function () {
-      $collapse.style.height = "auto";
+      $collapse.style.height = "100%";
       $navbar.className += " in";
     },
   };
@@ -147,8 +146,10 @@
   $toggle.addEventListener("click", function (e) {
     if ($navbar.className.indexOf("in") > 0) {
       __HuxNav__.close();
+      $toggle.classList.remove("show");
     } else {
       __HuxNav__.open();
+      $toggle.classList.add("show");
     }
   });
 
@@ -261,9 +262,9 @@
           </div>
           <div class="out-links">
             <a class="out-link" target="_blank" href="https://twitter.com/mpcvault"><img
-                src="https://dupeng910823.github.ioimg/twi.png" alt=""></a>
+                src="../../img/twi.png" alt=""></a>
             <a class="out-link" target="_blank" href="https://www.linkedin.com/company/mpcvault/"><img
-                src="https://dupeng910823.github.ioimg/in.png" alt=""></a>
+                src="../../img/in.png" alt=""></a>
           </div>
         </div>
         <div class="mpcvault-post-content">
@@ -403,28 +404,6 @@
         
         
 
-
-
-<div class="giscus" id="comments"></div>
-<script src="https://giscus.app/client.js" 
-  data-repo="roninro/hugo-theme-puppet" 
-  data-repo-id="R_kgDOHuvyhw"
-  data-category="General"
-  data-category-id="DIC_kwDOHuvyh84CQjDo"
-  data-mapping="pathname"
-  data-strict="0" 
-  data-reactions-enabled="1" 
-  data-emit-metadata="0" 
-  data-input-position="top"
-  data-theme="light_tritanopia"
-  data-lang="en"
-  crossorigin="anonymous"
-  async>
-  </script>
-
-
-
-
       </div>
 
 
@@ -436,40 +415,10 @@
 
         
         
-        <section>
-  
-  
-  <hr class="hidden-sm hidden-xs">
-  
-  <h5>FEATURED TAGS</h5>
-  <div class="tags">
-    
-    <a href="/tags/css/">css</a>
-    
-    <a href="/tags/documentation/">documentation</a>
-    
-    <a href="/tags/guide/">guide</a>
-    
-    <a href="/tags/html/">html</a>
-    
-    <a href="/tags/markdown/">markdown</a>
-    
-  </div>
-</section>
+        
 
         
         
-
-<hr>
-<h5>FRIENDS</h5>
-<ul class="list-inline">
-  
-  <li><a href="https://gohugo.io" target="_blank">John Doe</a></li>
-  
-  <li><a href="https://gohugo.io" target="_blank">John Doe</a></li>
-  
-</ul>
-
       </div>
     </div>
   </div>
@@ -489,7 +438,7 @@
 <div class="footer-box">
   <div class="footer">
     <div class="logo-box">
-      <img class="logo" src="../../images/logo.png" alt="">
+      <img class="logo" src="../../img/logo.png" alt="">
       <div class="soc-box">
         <img class="soc" src="../../images/new/soc.png" alt="">
       </div>

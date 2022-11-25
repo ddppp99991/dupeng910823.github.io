@@ -11,22 +11,20 @@
     
   
 
-  <title>markdown | Puppet</title>
+  <title>markdown | MPCVault - Enterprise Crypto Asset Custody Platform</title>
 
   
-  <meta name="author" content="Puppet">
-  
-  <meta name="description" content="A simple and clean theme for Hugo">
+  <meta name="description" content="MPCVault - Enterprise Crypto Asset Custody Platform">
   <meta name="keywords" content="blog,developer,personal">
 
   <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="markdown"/>
-<meta name="twitter:description" content="A simple and clean theme for Hugo"/>
+<meta name="twitter:description" content="MPCVault - Enterprise Crypto Asset Custody Platform"/>
 
   <meta property="og:title" content="markdown" />
-<meta property="og:description" content="A simple and clean theme for Hugo" />
+<meta property="og:description" content="MPCVault - Enterprise Crypto Asset Custody Platform" />
 <meta property="og:type" content="website" />
-<meta property="og:url" content="https://dupeng910823.github.io/tags/markdown/" />
+<meta property="og:url" content="https://dupeng910823.github.io/tags/markdown/" /><meta property="og:site_name" content="111" />
 
 
 
@@ -54,7 +52,7 @@
   
   
 
-  <link rel="alternate" type="application/rss+xml" href="/tags/markdown/index.xml" title="Puppet" />
+  <link rel="alternate" type="application/rss+xml" href="/tags/markdown/index.xml" title="MPCVault - Enterprise Crypto Asset Custody Platform" />
   
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   
@@ -88,6 +86,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
+        <img src="../../images/close.png" class="navbar-toggle-img" alt="">
       </button>
       
       <a class="navbar-brand" href="https://dupeng910823.github.io">
@@ -134,7 +133,7 @@
       }, 400);
     },
     open: function () {
-      $collapse.style.height = "auto";
+      $collapse.style.height = "100%";
       $navbar.className += " in";
     },
   };
@@ -143,8 +142,10 @@
   $toggle.addEventListener("click", function (e) {
     if ($navbar.className.indexOf("in") > 0) {
       __HuxNav__.close();
+      $toggle.classList.remove("show");
     } else {
       __HuxNav__.open();
+      $toggle.classList.add("show");
     }
   });
 
@@ -232,7 +233,7 @@
 <div class="footer-box">
   <div class="footer">
     <div class="logo-box">
-      <img class="logo" src="../../images/logo.png" alt="">
+      <img class="logo" src="../../img/logo.png" alt="">
       <div class="soc-box">
         <img class="soc" src="../../images/new/soc.png" alt="">
       </div>

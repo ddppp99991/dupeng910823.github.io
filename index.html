@@ -13,19 +13,17 @@
   <title></title>
 
   
-  <meta name="author" content="Puppet">
-  
   <meta name="description" content="Home Index Content">
   <meta name="keywords" content="blog,developer,personal">
 
   <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content=""/>
-<meta name="twitter:description" content="A simple and clean theme for Hugo"/>
+<meta name="twitter:description" content="MPCVault - Enterprise Crypto Asset Custody Platform"/>
 
   <meta property="og:title" content="" />
-<meta property="og:description" content="A simple and clean theme for Hugo" />
+<meta property="og:description" content="MPCVault - Enterprise Crypto Asset Custody Platform" />
 <meta property="og:type" content="website" />
-<meta property="og:url" content="https://dupeng910823.github.io/" />
+<meta property="og:url" content="https://dupeng910823.github.io/" /><meta property="og:site_name" content="111" />
 
 
 
@@ -53,8 +51,8 @@
   
   
 
-  <link rel="alternate" type="application/json" href="/index.json" title="Puppet" />
-  <link rel="alternate" type="application/rss+xml" href="/index.xml" title="Puppet" />
+  <link rel="alternate" type="application/json" href="/index.json" title="MPCVault - Enterprise Crypto Asset Custody Platform" />
+  <link rel="alternate" type="application/rss+xml" href="/index.xml" title="MPCVault - Enterprise Crypto Asset Custody Platform" />
   
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   
@@ -94,6 +92,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
+        <img src="../../images/close.png" class="navbar-toggle-img" alt="">
       </button>
       
       <a class="navbar-brand" href="https://dupeng910823.github.io">
@@ -140,7 +139,7 @@
       }, 400);
     },
     open: function () {
-      $collapse.style.height = "auto";
+      $collapse.style.height = "100%";
       $navbar.className += " in";
     },
   };
@@ -149,8 +148,10 @@
   $toggle.addEventListener("click", function (e) {
     if ($navbar.className.indexOf("in") > 0) {
       __HuxNav__.close();
+      $toggle.classList.remove("show");
     } else {
       __HuxNav__.open();
+      $toggle.classList.add("show");
     }
   });
 
@@ -199,7 +200,7 @@
   
 
   
-  <div class="container">
+  <div class="container container-post-list">
     <div class="row">
       
       
@@ -216,11 +217,13 @@
         
 
 
-   
-<div class="flex-box center mpc-post-box">
+   <div class="flex-box center mpc-post-box">
+  <a href="/posts/terms-conditions/"></a>
   <div class="col-lg-8 col-lg-offset-0 col-md-8 col-md-offset-0 col-sm-12
   col-xs-12">
-    <img class="blog-img" src="images/blog-logo/demo1.png" alt="">
+    <a href="/posts/terms-conditions/">
+      <img class="blog-img" src="images/blog-logo/demo1.png" alt="">
+    </a>
   </div>
   <div class="col-lg-4 col-lg-offset-0 col-md-4 col-md-offset-0 col-sm-12
   col-xs-12">
@@ -242,11 +245,13 @@
   </div>
 </div>
 
-   
-<div class="flex-box center mpc-post-box">
+   <div class="flex-box center mpc-post-box">
+  <a href="/posts/getting-started/"></a>
   <div class="col-lg-8 col-lg-offset-0 col-md-8 col-md-offset-0 col-sm-12
   col-xs-12">
-    <img class="blog-img" src="images/blog-logo/demo1.png" alt="">
+    <a href="/posts/getting-started/">
+      <img class="blog-img" src="images/blog-logo/demo1.png" alt="">
+    </a>
   </div>
   <div class="col-lg-4 col-lg-offset-0 col-md-4 col-md-offset-0 col-sm-12
   col-xs-12">
@@ -268,11 +273,13 @@
   </div>
 </div>
 
-   
-<div class="flex-box center mpc-post-box">
+   <div class="flex-box center mpc-post-box">
+  <a href="/posts/markdown-syntax/"></a>
   <div class="col-lg-8 col-lg-offset-0 col-md-8 col-md-offset-0 col-sm-12
   col-xs-12">
-    <img class="blog-img" src="images/blog-logo/demo1.png" alt="">
+    <a href="/posts/markdown-syntax/">
+      <img class="blog-img" src="images/blog-logo/demo1.png" alt="">
+    </a>
   </div>
   <div class="col-lg-4 col-lg-offset-0 col-md-4 col-md-offset-0 col-sm-12
   col-xs-12">
@@ -319,7 +326,7 @@
 <div class="footer-box">
   <div class="footer">
     <div class="logo-box">
-      <img class="logo" src="../../images/logo.png" alt="">
+      <img class="logo" src="../../img/logo.png" alt="">
       <div class="soc-box">
         <img class="soc" src="../../images/new/soc.png" alt="">
       </div>

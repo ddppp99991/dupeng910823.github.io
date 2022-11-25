@@ -1,4 +1,4 @@
-
+.container {max-width: 1040px;}
 
 .mpcvault header.intro-header {background-image: none!important;}
 .mpcvault .navbar-custom .nav li a {text-transform: unset;font-family: 'Inter-SemiBold';font-size: 16px;line-height: 20px;padding: 10px 24px;font-weight: unset;color: #000000;}
@@ -83,12 +83,18 @@ footer {background: #F8F9FC;}
 .mpcvault-post-content .highlight pre {background: #1E293B!important;border-radius: 4px;font-family: 'Inter-Regular';}
 .mpcvault-post-content .highlight pre  span {font-style: unset!important;}
 
+.postlist-container {padding: 0;}
 .post-container .pager li>a {border: 1px solid #CED2DE;border-radius: 2px;padding: 12px 25px;font-size: 16px;line-height: 21px;color: #000000;font-family: 'Inter-SemiBold';}
 .post-container .pager li>a>span {font-size: 14px;line-height: 18px;color: #73798C;font-family: 'Inter-Regular';}
 .post-container .pager li>a:hover {color: #ffffff;}
 .post-container .pager li>a:hover span {color: #ffffff;}
-
+.postlist-container .post-preview {padding-left: 47px;}
+.postlist-container .col-lg-1, .postlist-container .col-lg-10, .postlist-container .col-lg-11, .postlist-container .col-lg-12, .postlist-container .col-lg-2, .postlist-container .col-lg-3, .postlist-container .col-lg-4, .postlist-container .col-lg-5, .postlist-container .col-lg-6, .postlist-container .col-lg-7, .postlist-container .col-lg-8, .postlist-container .col-lg-9, .postlist-container .col-md-1, .postlist-container .col-md-10, .postlist-container .col-md-11, .postlist-container .col-md-12, .postlist-container .col-md-2, .postlist-container .col-md-3, .postlist-container .col-md-4, .postlist-container .col-md-5, .postlist-container .col-md-6, .postlist-container .col-md-7, .postlist-container .col-md-8, .postlist-container .col-md-9, .postlist-container .col-sm-1, .postlist-container .col-sm-10, .postlist-container .col-sm-11, .postlist-container .col-sm-12, .postlist-container .col-sm-2, .postlist-container .col-sm-3, .postlist-container .col-sm-4, .postlist-container .col-sm-5, .postlist-container .col-sm-6, .postlist-container .col-sm-7, .postlist-container .col-sm-8, .postlist-container .col-sm-9, .postlist-container .col-xs-1, .postlist-container .col-xs-10, .postlist-container .col-xs-11, .postlist-container .col-xs-12, .postlist-container .col-xs-2, .postlist-container .col-xs-3, .postlist-container .col-xs-4, .postlist-container .col-xs-5, .postlist-container .col-xs-6, .postlist-container .col-xs-7, .postlist-container .col-xs-8, .postlist-container .col-xs-9 {padding: 0;}
 .navbar-custom .navbar-brand {padding: 20px 0;}
+
+.mpc-post-box {margin-bottom: 64px;}
+.mpc-post-box:last-child {margin-bottom: 145px;}
+
 @media only screen and (min-width: 1170px) {
     .navbar-custom.is-fixed .nav li a {color: #000000;}
 }

@@ -117,6 +117,9 @@ a {text-decoration: none;}
 
 .container .header .menu {display: none;}
 .console-img {width: auto;height: 847px; margin-bottom: -5px;}
+
+
+
 @media screen and (min-width: 1000px) and (max-width: 1300px) {
     .container {padding: 0 20px;}
     .container .header {padding: 28px 0;position: unset;}
